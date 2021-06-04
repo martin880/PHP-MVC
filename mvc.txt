@@ -1,0 +1,33 @@
+MVC merupakan Pola arsitektur pada perancangan perangkat lunak berorientasi objek.
+Tujuannya untuk memisahkan antara tampilan, data dan proses.
+
+Model // Data
+-> Representasi Pengetahuan
+-> Mengelola Data
+-> Logika Bisnis
+
+View // Tampilan
+-> Output apa yang dilihat oleh user
+-> Representasi visual dari model
+-> Lapisan Presentasi
+
+Controller // Proses // Komponen Utama yang mengendalikan alur prosesnya
+-> Perantara antara model dan view
+-> Menangani pemrosesan pada aplikasi
+-> Menangani aksi dari user
+
+Kenapa MVC ?
+-> Organisasi dan Struktur Kode
+-> Pemisah logic dan Tampilan
+-> Perawatan Kode
+-> Implementasi konsep OOP yang sudah dipelajari
+-> Digunakan oleh banyak Web Application Framework yang populer
+
+file .htaccess yang berada pada folder app berfungsi untuk memblok akses user.
+Yang isi nya adalah Options -Indexes
+
+file .htaccess yang berada pada folder public berfungsi untuk menghindari kesalahan atau ambigu ketika kita memanggil folder atau file di dalam public.
+
+Tahap-tahap dalam aplikasi MVC ini:
+
+
